@@ -1,0 +1,66 @@
+Partlist
+
+Exported from 808_kick_rev2.2.sch at 5/6/12 9:11 PM
+
+EAGLE Version 5.6.0 Copyright (c) 1988-2009 CadSoft
+
+Part     Value          Device        Package               Library        Sheet
+
+ACC      M01PTH         M02           1X02_LONGPADS         SparkFun       1
+C1       0.1u           C2,5-3        C2.5-3                capacitor-wima 1
+C2       0.47u          CAP_POLPTH1   CPOL-RADIAL-100UF-25V SparkFun       1
+C3       1u             CAP_POLPTH1   CPOL-RADIAL-100UF-25V SparkFun       1
+C4       47u            CPOL-USE2-5   E2-5                  rcl            1
+C5       0.47u          CAP_POLPTH1   CPOL-RADIAL-100UF-25V SparkFun       1
+C6       33u            CAP_POLPTH1   CPOL-RADIAL-100UF-25V SparkFun       1
+C7       47u            CPOL-USE2-5   E2-5                  rcl            1
+C8       0.1u           C2.5/2        C2.5-2                capacitor-wima 1
+C9       15n            C2.5/2        C2.5-2                capacitor-wima 1
+C10      0.1u           C2.5/2        C2.5-2                capacitor-wima 1
+C11      15n            C2.5/2        C2.5-2                capacitor-wima 1
+C12      33n            C2.5/2        C2.5-2                capacitor-wima 1
+C13      220p           C2.5/2        C2.5-2                capacitor-wima 1
+C14      15n            C2.5/2        C2.5-2                capacitor-wima 1
+D1       1N4148DO35-7   1N4148DO35-7  DO35-7                diode          1
+D2       1N4148DO35-7   1N4148DO35-7  DO35-7                diode          1
+D3       IN914          1N4148DO35-7  DO35-7                diode          1
+DCY      500kB          PINHD-1X3     1X03                  pinhead        1
+FREQ     100kA          PINHD-1X3     1X03                  pinhead        1
+IC2      TL072P         TL072P        DIL08                 linear         1
+JP4                     M03POLAR_LOCK MOLEX-1X3_LOCK        SparkFun       1
+LEV      100kB          PINHD-1X3     1X03                  pinhead        1
+OUT      M01PTH         M02           1X02_LONGPADS         SparkFun       1
+R1       22k            R-US_0411/3V  0411V                 resistor       1
+R2       10k            R-US_0411/3V  0411V                 resistor       1
+R3       100k           R-US_0411/3V  0411V                 resistor       1
+R4       4.7k           R-US_0411/3V  0411V                 resistor       1
+R5       8.2k           R-US_0411/3V  0411V                 resistor       1
+R6       2.7k           R-US_0411/3V  0411V                 resistor       1
+R7       1M             R-US_0411/3V  0411V                 resistor       1
+R8       220            R-US_0411/3V  0411V                 resistor       1
+R9       22k            R-US_0411/3V  0411V                 resistor       1
+R10      100k           R-US_0411/3V  0411V                 resistor       1
+R11      47k            R-US_0411/3V  0411V                 resistor       1
+R12      1k             R-US_0411/3V  0411V                 resistor       1
+R13      5.9k           R-US_0411/3V  0411V                 resistor       1
+R14      100k           R-US_0411/3V  0411V                 resistor       1
+R15      82k            R-US_0411/3V  0411V                 resistor       1
+R16      1M             R-US_0411/3V  0411V                 resistor       1
+R17      5.9k           R-US_0411/3V  0411V                 resistor       1
+R19      100k           R-US_0411/3V  0411V                 resistor       1
+R20      42.2k          R-US_0411/3V  0411V                 resistor       1
+R21      10k            R-US_0411/3V  0411V                 resistor       1
+R22      1M             R-US_0411/3V  0411V                 resistor       1
+R23      4.7k           R-US_0411/3V  0411V                 resistor       1
+R24      470k           R-US_0411/3V  0411V                 resistor       1
+R25      22k            R-US_0411/3V  0411V                 resistor       1
+R26      100k           R-US_0411/3V  0411V                 resistor       1
+R27      10k            R-US_0411/3V  0411V                 resistor       1
+T1       BC546A         BC546A        TO92-EBC              transistor-npn 1
+T2       BC546A         BC546A        TO92-EBC              transistor-npn 1
+T3       BC546A         BC546A        TO92-EBC              transistor-npn 1
+T4                      BC556         TO92-EBC              transistor-pnp 1
+T5       BC546A         BC546A        TO92-EBC              transistor-npn 1
+T6       BC546A         BC546A        TO92-EBC              transistor-npn 1
+TONE     10kA           PINHD-1X3     1X03                  pinhead        1
+TRIG     M01PTH         M02           1X02_LONGPADS         SparkFun       1
