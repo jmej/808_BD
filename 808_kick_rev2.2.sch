@@ -11181,8 +11181,8 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C12" gate="G$1" x="58.42" y="81.28" rot="R90"/>
 <instance part="C13" gate="G$1" x="157.48" y="-5.08"/>
 <instance part="C14" gate="G$1" x="40.64" y="2.54" rot="R90"/>
-<instance part="SUPPLY1" gate="GND" x="10.16" y="-25.4"/>
-<instance part="SUPPLY2" gate="GND" x="20.32" y="-25.4"/>
+<instance part="SUPPLY1" gate="GND" x="12.7" y="-27.94"/>
+<instance part="SUPPLY2" gate="GND" x="20.32" y="-27.94"/>
 <instance part="SUPPLY3" gate="GND" x="17.78" y="43.18"/>
 <instance part="SUPPLY4" gate="GND" x="25.4" y="48.26"/>
 <instance part="SUPPLY5" gate="GND" x="33.02" y="48.26"/>
@@ -11209,8 +11209,8 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="SUPPLY25" gate="G$1" x="73.66" y="88.9"/>
 <instance part="SUPPLY26" gate="GND" x="91.44" y="109.22" rot="R90"/>
 <instance part="D3" gate="G$1" x="-7.62" y="12.7"/>
-<instance part="R26" gate="G$1" x="0" y="2.54" rot="R90"/>
-<instance part="SUPPLY27" gate="GND" x="0" y="-5.08"/>
+<instance part="R26" gate="G$1" x="2.54" y="2.54" rot="R90"/>
+<instance part="SUPPLY27" gate="GND" x="2.54" y="-10.16"/>
 <instance part="C1" gate="G$1" x="5.08" y="12.7" rot="R90"/>
 <instance part="SUPPLY28" gate="+15V" x="30.48" y="93.98" rot="R180"/>
 <instance part="SUPPLY29" gate="G$1" x="30.48" y="111.76" rot="R180"/>
@@ -11247,12 +11247,12 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="10.16" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="-22.86" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-25.4" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="E"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
@@ -11321,6 +11321,7 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
@@ -11665,7 +11666,7 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="N$18" class="0">
 <segment>
 <wire x1="-5.08" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="12.7" x2="0" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="7.62" width="0.1524" layer="91"/>
 <junction x="2.54" y="12.7"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="R26" gate="G$1" pin="2"/>
