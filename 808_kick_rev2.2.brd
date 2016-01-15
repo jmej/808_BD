@@ -116,23 +116,6 @@
 <text x="-1.905" y="-4.318" size="0.8128" layer="27">&gt;Value</text>
 <text x="-0.762" y="1.651" size="0.4064" layer="25">&gt;Name</text>
 </package>
-<package name="MOLEX-1X3_LOCK">
-<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.35" y1="3.048" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.35" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0.127" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="5.08" y="0.127" drill="1.016" diameter="1.8796"/>
-<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
-<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-<rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
-</package>
 <package name="1X02_LONGPADS">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
@@ -383,6 +366,49 @@ grid 2.032 mm, diameter 5 mm</description>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="con-amp">
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X4MTA">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
+<wire x1="8.3312" y1="6.35" x2="8.3312" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="8.3312" y1="3.81" x2="8.3312" y2="-3.81" width="0.4064" layer="21"/>
+<wire x1="-8.1788" y1="-3.81" x2="-8.1788" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="-8.1788" y1="3.81" x2="-8.1788" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-8.1788" y1="6.35" x2="8.3312" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-8.1788" y1="3.81" x2="8.3312" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="-8.1788" y1="-3.81" x2="8.3312" y2="-3.81" width="0.4064" layer="21"/>
+<pad name="3" x="-1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="2" x="1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="1" x="5.9436" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="4" x="-5.9436" y="0" drill="1.6764" shape="long" rot="R90"/>
+<text x="-3.175" y="-7.0612" size="1.778" layer="25">&gt;NAME</text>
+<text x="-7.1389" y="4.4148" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="5.4356" y1="-0.508" x2="6.4516" y2="0.508" layer="21"/>
+<rectangle x1="1.4732" y1="-0.508" x2="2.4892" y2="0.508" layer="21"/>
+<rectangle x1="-2.4892" y1="-0.508" x2="-1.4732" y2="0.508" layer="21"/>
+<rectangle x1="-6.4516" y1="-0.508" x2="-5.4356" y2="0.508" layer="21"/>
 </package>
 </packages>
 </library>
@@ -709,7 +735,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C1" library="capacitor-wima" package="C2.5-3" value="0.1u" x="17.145" y="16.891" smashed="yes" rot="R270">
 <attribute name="VALUE" x="16.1666" y="13.5393" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="JP4" library="SparkFun" package="MOLEX-1X3_LOCK" value="" x="54.229" y="32.893" smashed="yes" rot="R180"/>
 <element name="R27" library="resistor" package="0411V" value="10k" x="33.0064" y="10.1744" smashed="yes" rot="R90">
 <attribute name="VALUE" x="33.6142" y="13.1195" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
@@ -738,6 +763,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="ACCENT" library="pinhead" package="1X01" value="" x="1.7843" y="-3.64916875"/>
 <element name="R18" library="resistor" package="0411V" value="100k" x="4.5783" y="-7.831734375"/>
 <element name="C15" library="capacitor-wima" package="C2.5-2" value="100pF CHECKME" x="2.4193" y="-13.970103125"/>
+<element name="J1" library="con-amp" package="1X4MTA" value="" x="8.3121" y="-23.825303125"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -778,7 +804,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="R25" pad="1"/>
 <contactref element="R26" pad="1"/>
-<contactref element="JP4" pad="2"/>
 <contactref element="TRIG" pad="2"/>
 <contactref element="OUT" pad="2"/>
 <contactref element="C8" pad="2"/>
@@ -928,7 +953,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.7636" y1="23.4802" x2="29.2694" y2="24.986" width="0.254" layer="1"/>
 <wire x1="27.6712" y1="23.4802" x2="27.7636" y2="23.4802" width="0.254" layer="16"/>
 <wire x1="25.4" y1="21.209" x2="27.6712" y2="23.4802" width="0.254" layer="16"/>
-<wire x1="51.689" y1="34.4782" x2="51.689" y2="33.02" width="0.254" layer="1"/>
 <wire x1="51.7112" y1="34.5004" x2="51.689" y2="34.4782" width="0.254" layer="1"/>
 <wire x1="57.15" y1="28.829" x2="57.1312" y2="28.8478" width="0.254" layer="1"/>
 <wire x1="55.8591" y1="34.5004" x2="51.7112" y2="34.5004" width="0.254" layer="1"/>
@@ -948,8 +972,12 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0.4005" y="0.4009"/>
 </polygon>
 <contactref element="C15" pad="2"/>
+<contactref element="J1" pad="3"/>
+<contactref element="J1" pad="2"/>
 <wire x1="57.0158" y1="16.383" x2="57.277" y2="17.301" width="0" layer="19" extent="16-16"/>
 <wire x1="3.6893" y1="-13.970103125" x2="5.4864" y2="2.2352" width="0" layer="19" extent="1-1"/>
+<wire x1="6.3309" y1="-23.825303125" x2="3.6893" y2="-13.970103125" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2933" y1="-23.825303125" x2="6.3309" y2="-23.825303125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R4" pad="1"/>
@@ -1299,13 +1327,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R7" pad="2"/>
 <contactref element="R9" pad="2"/>
 <contactref element="T6" pad="C"/>
-<contactref element="JP4" pad="3"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="C7" pad="+"/>
 <wire x1="45.72" y1="33.528" x2="48.9712" y2="33.528" width="0.254" layer="16"/>
 <wire x1="48.9712" y1="33.528" x2="48.9712" y2="32.9184" width="0.254" layer="16"/>
 <wire x1="45.72" y1="33.655" x2="45.72" y2="33.528" width="0.254" layer="16"/>
-<wire x1="48.9712" y1="32.9184" x2="49.149" y2="32.766" width="0.254" layer="16"/>
 <wire x1="16.8656" y1="25.6032" x2="14.6304" y2="27.8384" width="0.254" layer="1"/>
 <wire x1="14.6304" y1="27.8384" x2="13.0048" y2="27.8384" width="0.254" layer="1"/>
 <wire x1="17.018" y1="25.527" x2="16.8656" y2="25.6032" width="0.254" layer="1"/>
@@ -1336,11 +1362,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.51" y1="33.02" x2="16.4592" y2="33.1216" width="0.254" layer="1"/>
 <via x="19.7104" y="19.5072" extent="1-16" drill="0.3302"/>
 <contactref element="R18" pad="2"/>
+<contactref element="J1" pad="1"/>
 <wire x1="5.8483" y1="-7.831734375" x2="20.32" y2="16.8656" width="0" layer="19" extent="16-16"/>
+<wire x1="14.2557" y1="-23.825303125" x2="5.8483" y2="-7.831734375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V">
 <contactref element="R13" pad="1"/>
-<contactref element="JP4" pad="1"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="C4" pad="-"/>
 <wire x1="14.4272" y1="16.0528" x2="13.8176" y2="16.6624" width="0.254" layer="16"/>
@@ -1358,7 +1385,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.6448" y1="30.0736" x2="54.0512" y2="30.48" width="0.254" layer="16"/>
 <wire x1="54.0512" y1="30.48" x2="54.0512" y2="32.7152" width="0.254" layer="16"/>
 <wire x1="38.1" y1="26.035" x2="38.2016" y2="26.2128" width="0.254" layer="1"/>
-<wire x1="54.0512" y1="32.7152" x2="54.229" y2="32.766" width="0.254" layer="16"/>
 <wire x1="22.352" y1="11.176" x2="23.5712" y2="9.9568" width="0.254" layer="1"/>
 <wire x1="23.5712" y1="9.9568" x2="27.0256" y2="9.9568" width="0.254" layer="1"/>
 <wire x1="27.0256" y1="9.9568" x2="27.8384" y2="10.7696" width="0.254" layer="16"/>
@@ -1375,6 +1401,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="53.6448" y="30.0736" extent="1-16" drill="0.3302"/>
 <via x="27.0256" y="9.9568" extent="1-16" drill="0.3302"/>
 <via x="31.6992" y="26.0096" extent="1-16" drill="0.3302"/>
+<contactref element="J1" pad="4"/>
+<wire x1="2.3685" y1="-23.825303125" x2="14.6304" y2="13.208" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R14" pad="2"/>
