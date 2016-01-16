@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -11215,7 +11215,7 @@ RJ45 Jack connectors&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="TRIG" library="SparkFun" deviceset="M02" device="" value="M01PTH"/>
+<part name="TRIG" library="SparkFun" deviceset="M02" device=""/>
 <part name="OUT" library="SparkFun" deviceset="M02" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="0411/3V" value="22k"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0411/3V" value="10k"/>
@@ -11318,7 +11318,7 @@ RJ45 Jack connectors&lt;br&gt;
 <plain>
 </plain>
 <instances>
-<instance part="TRIG" gate="G$1" x="-17.78" y="12.7"/>
+<instance part="TRIG" gate="G$1" x="-25.4" y="12.7"/>
 <instance part="OUT" gate="G$1" x="157.48" y="116.84" rot="R270"/>
 <instance part="R1" gate="G$1" x="12.7" y="7.62" rot="R90"/>
 <instance part="R2" gate="G$1" x="12.7" y="-17.78" rot="R90"/>
@@ -11336,7 +11336,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="R15" gate="G$1" x="132.08" y="5.08"/>
 <instance part="R16" gate="G$1" x="63.5" y="12.7"/>
 <instance part="R17" gate="G$1" x="71.12" y="38.1" rot="R90"/>
-<instance part="R19" gate="G$1" x="53.34" y="27.94"/>
+<instance part="R19" gate="G$1" x="48.26" y="50.8" rot="R270"/>
 <instance part="R20" gate="G$1" x="99.06" y="43.18"/>
 <instance part="R21" gate="G$1" x="104.14" y="20.32" rot="R90"/>
 <instance part="R22" gate="G$1" x="71.12" y="81.28"/>
@@ -11369,7 +11369,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="SUPPLY4" gate="GND" x="25.4" y="48.26"/>
 <instance part="SUPPLY5" gate="GND" x="33.02" y="48.26"/>
 <instance part="SUPPLY6" gate="GND" x="43.18" y="48.26"/>
-<instance part="SUPPLY7" gate="GND" x="66.04" y="68.58"/>
+<instance part="SUPPLY7" gate="GND" x="68.58" y="60.96"/>
 <instance part="SUPPLY8" gate="GND" x="147.32" y="78.74"/>
 <instance part="SUPPLY9" gate="GND" x="157.48" y="-15.24"/>
 <instance part="SUPPLY11" gate="GND" x="93.98" y="-7.62"/>
@@ -11385,8 +11385,8 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="SUPPLY22" gate="G$1" x="147.32" y="-20.32"/>
 <instance part="SUPPLY23" gate="+15V" x="147.32" y="20.32"/>
 <instance part="R24" gate="G$1" x="101.6" y="81.28"/>
-<instance part="SUPPLY10" gate="GND" x="111.76" y="20.32"/>
-<instance part="R25" gate="G$1" x="111.76" y="27.94" rot="R90"/>
+<instance part="SUPPLY10" gate="GND" x="109.22" y="17.78"/>
+<instance part="R25" gate="G$1" x="109.22" y="27.94" rot="R90"/>
 <instance part="SUPPLY24" gate="+15V" x="73.66" y="121.92"/>
 <instance part="SUPPLY25" gate="G$1" x="73.66" y="88.9"/>
 <instance part="SUPPLY26" gate="GND" x="91.44" y="109.22" rot="R90"/>
@@ -11484,7 +11484,9 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="71.12" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="68.58" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
@@ -11504,6 +11506,7 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="22.86" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -11529,7 +11532,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="25.4" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="17.78" x2="-17.78" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="TRIG" gate="G$1" pin="2"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
@@ -11700,7 +11703,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="43.18" y1="66.04" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="81.28" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="63.5" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
 <junction x="48.26" y="63.5"/>
@@ -11884,18 +11887,22 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="IC2" gate="B" pin="+IN"/>
 <pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="T3" gate="G$1" pin="B"/>
 <pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="TRIG" gate="G$1" pin="1"/>
 <pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="-17.78" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -11986,15 +11993,15 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="N$23" class="0">
 <segment>
-<wire x1="83.82" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="43.18" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="0" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 <junction x="93.98" y="43.18"/>
-<junction x="91.44" y="43.18"/>
+<junction x="88.9" y="43.18"/>
 <junction x="81.28" y="12.7"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R20" gate="G$1" pin="1"/>
