@@ -16,7 +16,7 @@ This is an easy and cheap build.
 
 ## BOM
 XXX EDIT THIS FOR NEW VERSION
-[Mouser BOM](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=950b04d9fc)
+[Old Mouser BOM](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=950b04d9fc)
 
 ## Build Docs
 [muffwiggler build thread](http://www.muffwiggler.com/forum/viewtopic.php?t=54149)
