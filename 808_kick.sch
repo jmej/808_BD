@@ -11769,7 +11769,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="C4" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="LEV" library="pinhead" deviceset="PINHD-1X3" device="" value="100kB"/>
-<part name="ACCENT" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="ACNT" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="R18" library="resistor" deviceset="R-US_" device="0411/3V" value="100k"/>
 <part name="C15" library="capacitor-wima" deviceset="C" device="2.5/2" value="100pF"/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
@@ -11874,7 +11874,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C4" gate="G$1" x="73.66" y="104.14"/>
 <instance part="C7" gate="G$1" x="73.66" y="114.3"/>
 <instance part="LEV" gate="A" x="111.76" y="5.08" rot="R180"/>
-<instance part="ACCENT" gate="G$1" x="-20.32" y="40.64" rot="R180"/>
+<instance part="ACNT" gate="G$1" x="-20.32" y="40.64" rot="R180"/>
 <instance part="R18" gate="G$1" x="-7.62" y="48.26" rot="R90"/>
 <instance part="C15" gate="G$1" x="-7.62" y="33.02"/>
 <instance part="SUPPLY31" gate="GND" x="-7.62" y="25.4"/>
@@ -12074,7 +12074,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="T4" gate="G$1" pin="E"/>
 <wire x1="20.32" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="ACCENT" gate="G$1" pin="1"/>
+<pinref part="ACNT" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
