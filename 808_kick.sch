@@ -6091,8 +6091,8 @@ grid 2.032 mm, diameter 5 mm</description>
 <wire x1="-1.27" y1="1.778" x2="-0.762" y2="1.778" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="1.524" x2="-1.016" y2="2.032" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="1.016" y="0" drill="0.8128" diameter="1.27" shape="octagon"/>
-<pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.27"/>
+<pad name="-" x="1.016" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
+<pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.4224" shape="square"/>
 <text x="2.54" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
@@ -11705,7 +11705,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R16" library="resistor" deviceset="R-US_" device="0411/3V" value="1M"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="0411/3V" value="5.9k"/>
 <part name="R19" library="resistor" deviceset="R-US_" device="0411/3V" value="100k"/>
-<part name="R20" library="resistor" deviceset="R-US_" device="0411/3V" value="42.2k"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="0411/3V" value="42.2k*"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="0411/3V" value="10k"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="0411/3V" value="1M"/>
 <part name="R23" library="resistor" deviceset="R-US_" device="0411/3V" value="4.7k"/>
