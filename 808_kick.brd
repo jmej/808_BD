@@ -95,7 +95,7 @@
 <text x="9.59951875" y="10.0868125" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">1n914</text>
 <text x="65.612778125" y="36.383575" size="0.8128" layer="25" font="vector" ratio="15">rev3.0 01.2016</text>
 <text x="69.99468125" y="0.81239375" size="1.016" layer="25" ratio="15">out</text>
-<text x="9.115453125" y="4.586325" size="1.016" layer="25" ratio="15">trig</text>
+<text x="10.074759375" y="4.586325" size="1.016" layer="25" ratio="15">trig</text>
 <text x="6.89101875" y="32.954778125" size="1.4224" layer="25" font="vector" ratio="15">808 BD</text>
 <hole x="72.39" y="3.81" drill="3.2512"/>
 <hole x="72.39" y="34.29" drill="3.2512"/>
@@ -103,7 +103,7 @@
 <hole x="3.81" y="34.29" drill="3.2512"/>
 <text x="40.99691875" y="36.45580625" size="0.8128" layer="25">unlabeled trans are BC546</text>
 <text x="12.645540625" y="36.190325" size="0.8128" layer="25">unlabeled diode are 1n4148</text>
-<text x="5.999175" y="4.491025" size="1.016" layer="25">gnd</text>
+<text x="7.28655" y="4.566715625" size="1.016" layer="25">gnd</text>
 <text x="19.340678125" y="0.84145" size="1.016" layer="25" rot="R90">gnd</text>
 <text x="45.695003125" y="0.79685" size="1.016" layer="25" rot="R90">gnd</text>
 <text x="62.574525" y="0.734975" size="1.016" layer="25">gnd</text>
@@ -689,7 +689,7 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="TRIG" library="SparkFun" package="1X02_LONGPADS" value="" x="9.7249" y="2.2736" smashed="yes" rot="R180"/>
+<element name="TRIG" library="SparkFun" package="1X02_LONGPADS" value="" x="10.961778125" y="2.500778125" smashed="yes" rot="R180"/>
 <element name="OUT" library="SparkFun" package="1X02_LONGPADS" value="" x="68.5334" y="2.2897" smashed="yes" rot="R180"/>
 <element name="R1" library="resistor" package="0411V" value="22k" x="3.0616" y="23.3025" smashed="yes" rot="R270">
 <attribute name="VALUE" x="4.146203125" y="23.028121875" size="0.8128" layer="25" ratio="15"/>
@@ -1242,7 +1242,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="TRIG" pad="1"/>
 <contactref element="D3" pad="A"/>
 <wire x1="11.1558" y1="8.0097" x2="11.1558" y2="7.1206" width="0.254" layer="16"/>
-<wire x1="9.7249" y1="2.2736" x2="10.9442" y2="2.2736" width="0.254" layer="16"/>
+<wire x1="10.961778125" y1="2.500778125" x2="10.9442" y2="2.2736" width="0.254" layer="16"/>
 <wire x1="10.9442" y1="2.2736" x2="10.9442" y2="6.909" width="0.254" layer="16"/>
 <wire x1="10.9442" y1="6.909" x2="11.1558" y2="7.1206" width="0.254" layer="16"/>
 </signal>
