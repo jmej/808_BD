@@ -11886,7 +11886,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="R28" gate="G$1" x="33.02" y="114.3" rot="R180"/>
 <instance part="R29" gate="G$1" x="33.02" y="96.52" rot="R180"/>
 <instance part="FREQ" gate="G$1" x="76.2" y="27.94" rot="R180"/>
-<instance part="TONE" gate="G$1" x="93.98" y="25.4" rot="R180"/>
+<instance part="TONE" gate="G$1" x="93.98" y="25.4" rot="MR0"/>
 <instance part="DCY" gate="G$1" x="116.84" y="68.58" rot="R90"/>
 </instances>
 <busses>
@@ -12303,12 +12303,12 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="104.14" y1="25.4" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
-<junction x="99.06" y="33.02"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="TONE" gate="G$1" pin="2"/>
+<pinref part="TONE" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="27.94" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<junction x="99.06" y="33.02"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -12419,13 +12419,14 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="93.98" y1="15.24" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <junction x="93.98" y="12.7"/>
 <junction x="93.98" y="15.24"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="TONE" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="22.86" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="TONE" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
