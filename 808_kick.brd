@@ -845,8 +845,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="EURO_POWER" library="pinhead" package="2X05" value="" x="73.1287" y="22.6622" smashed="yes" rot="R270">
 <attribute name="VALUE" x="68.6837" y="29.0122" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R28" library="resistor" package="0411V" value="BEAD" x="67.522" y="34.1762" smashed="yes">
-<attribute name="VALUE" x="66.28989375" y="32.118796875" size="0.8128" layer="25" ratio="10"/>
+<element name="R28" library="resistor" package="0411V" value="BEAD" x="66.78021875" y="34.1762" smashed="yes">
+<attribute name="VALUE" x="65.5481125" y="32.118796875" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R29" library="resistor" package="0411V" value="BEAD" x="71.7773" y="11.8751" smashed="yes">
 <attribute name="VALUE" x="70.798284375" y="9.514528125" size="0.8128" layer="25" ratio="10"/>
@@ -1166,8 +1166,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="54.179" y1="11.5626" x2="43.3367" y2="11.5626" width="0.254" layer="1"/>
 <wire x1="43.3367" y1="11.5626" x2="41.9686" y2="10.1945" width="0.254" layer="1"/>
 <wire x1="63.106" y1="18.1958" x2="63.106" y2="19.4405" width="0.254" layer="16"/>
-<wire x1="63.106" y1="19.4405" x2="64.982" y2="21.3165" width="0.254" layer="16"/>
-<wire x1="64.982" y1="21.3165" x2="64.982" y2="34.1762" width="0.254" layer="16"/>
+<wire x1="63.106" y1="19.4405" x2="64.240115625" y2="21.098059375" width="0.254" layer="16"/>
+<wire x1="64.240115625" y1="21.098059375" x2="64.24021875" y2="34.1762" width="0.254" layer="16"/>
 <wire x1="40.9779" y1="10.1945" x2="39.9872" y2="10.1945" width="0.254" layer="16"/>
 <wire x1="38.3382" y1="14.4214" x2="38.3382" y2="12.7195" width="0.254" layer="16"/>
 <wire x1="38.3382" y1="12.7195" x2="39.9872" y2="11.0705" width="0.254" layer="16"/>
@@ -1408,9 +1408,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="74.3987" y1="27.7422" x2="72.2059" y2="27.7422" width="0.254" layer="1"/>
 <wire x1="72.2059" y1="27.7422" x2="72.0323" y2="27.9158" width="0.254" layer="1"/>
 <wire x1="69.2382" y1="28.7203" x2="72.0323" y2="28.7203" width="0.254" layer="1"/>
-<wire x1="68.792" y1="34.1762" x2="68.792" y2="32.9315" width="0.254" layer="16"/>
+<wire x1="68.05021875" y1="34.1762" x2="68.050115625" y2="32.8878125" width="0.254" layer="16"/>
 <wire x1="69.2382" y1="28.7203" x2="66.4441" y2="28.7203" width="0.254" layer="16"/>
-<wire x1="68.792" y1="32.9315" x2="66.4441" y2="30.5836" width="0.254" layer="16"/>
+<wire x1="68.050115625" y1="32.8878125" x2="66.4441" y2="30.5836" width="0.254" layer="16"/>
 <wire x1="66.4441" y1="30.5836" x2="66.4441" y2="28.7203" width="0.254" layer="16"/>
 </signal>
 <signal name="POS_INPUT">
