@@ -19,12 +19,12 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -89,26 +89,27 @@
 <wire x1="76.2" y1="0" x2="76.2" y2="38.1" width="0" layer="20"/>
 <wire x1="76.2" y1="38.1" x2="0" y2="38.1" width="0" layer="20"/>
 <wire x1="0" y1="38.1" x2="0" y2="0" width="0" layer="20"/>
-<text x="67.5324" y="23.1307625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">GND</text>
-<text x="74.912015625" y="30.6277125" size="1.27" layer="25" font="vector" ratio="15" rot="R180">-</text>
-<text x="75.120834375" y="14.988565625" size="1.778" layer="25" font="vector" ratio="15" rot="R90">+</text>
+<text x="67.935546875" y="23.095709375" size="0.6096" layer="25" ratio="15" rot="R180">GND</text>
+<text x="74.692865625" y="30.94906875" size="1.778" layer="25" ratio="15" rot="R180">-</text>
+<text x="74.85789375" y="14.778053125" size="1.778" layer="25" ratio="15" rot="R90">+</text>
 <text x="9.59951875" y="10.0868125" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">1n914</text>
 <text x="65.612778125" y="36.383575" size="0.8128" layer="25" font="vector" ratio="15">rev3.0 01.2016</text>
-<text x="70.057775" y="1.191159375" size="1.016" layer="25" font="vector" ratio="15">out</text>
-<text x="8.63153125" y="4.502096875" size="1.016" layer="25" font="vector" ratio="15">trig</text>
+<text x="69.99468125" y="0.81239375" size="1.016" layer="25" ratio="15">out</text>
+<text x="9.115453125" y="4.586325" size="1.016" layer="25" ratio="15">trig</text>
 <text x="6.89101875" y="32.954778125" size="1.4224" layer="25" font="vector" ratio="15">808 BD</text>
 <hole x="72.39" y="3.81" drill="3.2512"/>
 <hole x="72.39" y="34.29" drill="3.2512"/>
 <hole x="3.81" y="3.81" drill="3.2512"/>
 <hole x="3.81" y="34.29" drill="3.2512"/>
-<text x="28.102153125" y="36.229340625" size="0.8128" layer="27">unlabeled trans are BC546</text>
-<text x="12.645540625" y="36.190325" size="0.8128" layer="27">unlabeled diode are 1n4148</text>
-<text x="3.748228125" y="1.1025625" size="1.016" layer="27">gnd</text>
-<text x="17.271084375" y="0.91876875" size="1.016" layer="27">gnd</text>
-<text x="43.986296875" y="0.734975" size="1.016" layer="27">gnd</text>
-<text x="62.574525" y="0.734975" size="1.016" layer="27">gnd</text>
+<text x="40.99691875" y="36.45580625" size="0.8128" layer="25">unlabeled trans are BC546</text>
+<text x="12.645540625" y="36.190325" size="0.8128" layer="25">unlabeled diode are 1n4148</text>
+<text x="5.999175" y="4.491025" size="1.016" layer="25">gnd</text>
+<text x="19.340678125" y="0.84145" size="1.016" layer="25" rot="R90">gnd</text>
+<text x="45.695003125" y="0.79685" size="1.016" layer="25" rot="R90">gnd</text>
+<text x="62.574525" y="0.734975" size="1.016" layer="25">gnd</text>
 <text x="6.962446875" y="31.52911875" size="0.8128" layer="25">μ-rave</text>
-<text x="14.35303125" y="32.95478125" size="1.4224" layer="25" font="vector" ratio="15" rot="MR0">808 BD</text>
+<text x="14.4440625" y="32.924403125" size="1.4224" layer="26" font="vector" ratio="15" rot="MR0">808 BD</text>
+<text x="14.32580625" y="30.952740625" size="1.778" layer="26" rot="MR0">μ-rave</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -724,7 +725,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="70.5327875" y="6.706571875" size="0.8128" layer="25" ratio="15" rot="R180"/>
 </element>
 <element name="R13" library="resistor" package="0411V" value="5.9k" x="63.106" y="15.6558" smashed="yes" rot="R270">
-<attribute name="VALUE" x="64.340215625" y="13.0808875" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="64.340215625" y="13.186146875" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="R14" library="resistor" package="0411V" value="100k" x="59.7994" y="17.1739" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.72681875" y="19.6047875" size="0.8128" layer="25" ratio="15"/>
@@ -759,7 +760,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="T5" library="transistor-npn" package="TO92-EBC" value="BC546A" x="7.2463" y="21.7013" smashed="yes" rot="R90"/>
 <element name="T6" library="transistor-npn" package="TO92-EBC" value="BC546A" x="63.0616" y="23.8644" smashed="yes" rot="R270"/>
 <element name="T4" library="transistor-pnp" package="TO92-EBC" value="BC556" x="14.4743" y="8.498" smashed="yes" rot="R90">
-<attribute name="VALUE" x="18.408453125" y="6.38390625" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="18.408453125" y="6.38390625" size="0.8128" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="IC2" library="linear" package="DIL08" value="TL072P" x="34.5282" y="18.2314" smashed="yes">
 <attribute name="VALUE" x="30.9722" y="17.5964" size="1.27" layer="25" ratio="10"/>
@@ -819,24 +820,24 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="11.7638625" y="11.776325" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C4" library="rcl" package="E2-5" value="47u" x="39.9619" y="10.1945" smashed="yes">
-<attribute name="VALUE" x="38.9025" y="8.131546875" size="1.016" layer="27" ratio="10"/>
+<attribute name="VALUE" x="38.9025" y="8.131546875" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="C7" library="rcl" package="E2-5" value="47u" x="29.2841" y="26.1985" smashed="yes" rot="R180">
-<attribute name="VALUE" x="30.2922" y="28.0486" size="1.016" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="30.2922" y="28.0486" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="LEV" library="pinhead" package="1X03" value="100kB" x="50.0502" y="2.0149" smashed="yes">
 <attribute name="NAME" x="46.2668" y="3.6893" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="49.4797" y="3.7304" size="1.016" layer="27"/>
+<attribute name="VALUE" x="49.4797" y="3.7304" size="1.016" layer="25"/>
 </element>
 <element name="ACNT" library="pinhead" package="1X01" value="" x="14.608" y="2.1272" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.797125" y="3.794103125" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.783" y="0.8572" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R18" library="resistor" package="0411V" value="100k" x="23.6086" y="15.4774" smashed="yes">
-<attribute name="VALUE" x="23.075203125" y="16.70879375" size="0.8128" layer="27" ratio="10"/>
+<attribute name="VALUE" x="23.075203125" y="16.70879375" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="C15" library="capacitor-wima" package="C2.5-2" value="100pF" x="25.937" y="19.3395" smashed="yes">
-<attribute name="VALUE" x="25.63341875" y="21.01691875" size="0.8128" layer="27" ratio="10"/>
+<attribute name="VALUE" x="25.63341875" y="21.01691875" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="MOTM_POWER" library="con-amp" package="1X4MTA" value="" x="69.2382" y="22.7767" smashed="yes" rot="R270">
 <attribute name="VALUE" x="73.653" y="29.9156" size="1.27" layer="27" rot="R270"/>
@@ -845,22 +846,22 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="68.6837" y="29.0122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R28" library="resistor" package="0411V" value="BEAD" x="67.522" y="34.1762" smashed="yes">
-<attribute name="VALUE" x="66.28989375" y="32.118796875" size="0.8128" layer="27" ratio="10"/>
+<attribute name="VALUE" x="66.28989375" y="32.118796875" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R29" library="resistor" package="0411V" value="BEAD" x="71.7773" y="11.8751" smashed="yes">
-<attribute name="VALUE" x="70.987565625" y="9.745971875" size="0.8128" layer="27" ratio="10"/>
+<attribute name="VALUE" x="70.798284375" y="9.514528125" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="FREQ" library="pinhead" package="1X02" value="100kA" x="22.1875" y="2.1828" smashed="yes">
-<attribute name="NAME" x="18.064778125" y="4.0116" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="22.58719375" y="3.932453125" size="1.016" layer="27"/>
+<attribute name="NAME" x="18.032978125" y="3.839590625" size="1.016" layer="25" ratio="10"/>
+<attribute name="VALUE" x="22.58719375" y="3.932453125" size="1.016" layer="25"/>
 </element>
 <element name="TONE" library="pinhead" package="1X02" value="10kA" x="39.6945" y="2.2178" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.523296875" y="4.94616875" size="1.016" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="39.184571875" y="4.95175625" size="1.016" layer="27" rot="R180"/>
+<attribute name="NAME" x="44.503534375" y="4.94616875" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="39.712384375" y="5.027246875" size="1.016" layer="25" rot="R180"/>
 </element>
 <element name="DCY" library="pinhead" package="1X02" value="500kB" x="31.5821" y="2.2102" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.06413125" y="5.028178125" size="1.016" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="31.58646875" y="5.0177125" size="1.016" layer="27" rot="R180"/>
+<attribute name="NAME" x="35.441171875" y="4.9526875" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="31.58646875" y="5.0177125" size="1.016" layer="25" rot="R180"/>
 </element>
 </elements>
 <signals>
