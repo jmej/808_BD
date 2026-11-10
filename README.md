@@ -22,7 +22,7 @@ This is an easy and cheap build.
 
 
 ## Build Docs
-[muffwiggler build thread](http://www.muffwiggler.com/forum/viewtopic.php?t=54149)
+[modwiggler build thread](http://www.modwiggler.com/forum/viewtopic.php?t=54149)
 
 
 ## BOM
